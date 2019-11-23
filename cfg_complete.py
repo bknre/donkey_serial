@@ -231,7 +231,7 @@ PID_THROTTLE = 0.2                  # constant throttle value during path follow
 SAVE_PATH_BTN = "cross"             # joystick button to save path
 RESET_ORIGIN_BTN = "triangle"       # joystick button to press to move car back to origin
 
-HAVE_ODOM = False                   # Do you have an odometer? Uses pi gpio instead
+HAVE_ODOM = True                   # Do you have an odometer? Uses pi gpio instead
 MM_PER_TICK = 22.16                 # How much travel with a single tick, in mm
 ODOM_PIN = 36                       # Which GPIO board mode pin to use as input
 ODOM_DEBUG = False                  # Write out values on vel and distance as it runs
