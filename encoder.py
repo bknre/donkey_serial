@@ -68,6 +68,9 @@ class AStarSpeed:
 
 class RotaryEncoder():
     def __init__(self, mm_per_tick=0.306096, pin=13, poll_delay=0.0166, debug=False):
+    
+    # TODO
+    print("Entered RotaryEncoder class")
 
 #        import RPi.GPIO as GPIO
 #        GPIO.setmode(GPIO.BOARD)
@@ -97,6 +100,7 @@ class RotaryEncoder():
         # keep looping infinitely until the thread is stopped
         
         # TODO
+        print("Entered rotary encoder update")
         counterPrint = []
         
         while(self.on):
